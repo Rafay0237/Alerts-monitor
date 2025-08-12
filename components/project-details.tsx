@@ -341,7 +341,7 @@ export function ProjectDetails({
                   onClick={() =>
                     copyToClipboard(
                       "curlCommand",
-                      `curl -X POST https://monitoring-alerts.vercel.app/alerts/report/${project.key}`
+                      `https://monitoring-alerts.vercel.app/alerts/report/${project.key}`
                     )
                   }
                 >
